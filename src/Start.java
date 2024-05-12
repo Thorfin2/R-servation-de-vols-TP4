@@ -12,19 +12,19 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+
+
 /**
- * The Start class is the entry point of the application.
- * It contains the main method which initializes and executes the application logic.
+ * Notre classe démontre l'utilisation de différentes classes et de leurs interactions dans l'application.
+ * Elle crée des instances des classes AeroportVille, Ville, Aeroport, Etape, Saut, Trajet, Compagnie, Vol, Client et Réservation.
+ * Elle effectue également des opérations comme la confirmation, le paiement et l'annulation des réservations.
  *
- * This class demonstrates the usage of various classes and their interactions in the application.
- * It creates instances of AeroportVille, Ville, Aeroport, Etape, Saut, Trajet, Compagnie, Vol, Client, and Reservation classes.
- * It also performs operations like confirmation, payment, and cancellation of reservations.
- *
- * Note: This class relies on the IAeroportVilleFactory interface which is not shown here.
+ * Remarque: Cette classe dépend de l'interface IAeroportVilleFactory qui n'est pas montrée ici.
+ * Nous avons également utilise le Factory design pattern pour créer les instances de AeroportVille.
  */
 
+//Mehdi Znata and Ibrahim Diab
 
-//Mehdi Znata and Bob Diab
 public class Start {  
 
     public static void main(String[] args) {
